@@ -1,0 +1,20 @@
+ 
+<RelativeLayout 
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+   	android:orientation="vertical"
+     >
+   
+   
+      <com.rotate.finger.action.RotateLayout 
+          android:layout_height="200dp"
+          android:layout_width="250dp"
+          android:layout_centerInParent="true"
+          
+          android:background="#FFFF14"
+          ></com.rotate.finger.action.RotateLayout>
+
+   
+</RelativeLayout>
+ 

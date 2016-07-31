@@ -1,0 +1,44 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <com.barrage.T2BarrageView 
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:id="@+id/barrageview"
+        >
+        
+    </com.barrage.T2BarrageView>
+
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:onClick="show"
+        android:layout_alignRight="@+id/barrageview"
+        android:layout_marginBottom="47dp"
+        android:text="数据更新" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/button1"
+        android:onClick="reset"
+        android:layout_marginLeft="21dp"
+        android:layout_toRightOf="@+id/button1"
+        android:text="重新播放" />
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/button1"
+        android:onClick="zantingbofang"
+        android:layout_toLeftOf="@+id/button1"
+        android:text="暂停/播放" />
+
+</RelativeLayout>

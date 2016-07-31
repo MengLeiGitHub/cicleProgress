@@ -1,0 +1,33 @@
+ 
+<RelativeLayout 
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+   	android:orientation="vertical"
+     >
+   
+  <com.dropdown.shit.DropDownShitLayout
+      android:layout_height="fill_parent"
+       android:layout_width="fill_parent"
+       android:layout_weight="1"
+       android:id="@+id/layout"
+      >
+    
+
+      
+     
+      
+      <Button
+          android:id="@+id/add"
+          android:layout_width="100dp"
+          android:layout_height="50dp"
+          android:layout_alignParentBottom="true"
+          android:layout_alignParentLeft="true"
+          android:visibility="gone"
+          android:text="add" />
+
+     
+  </com.dropdown.shit.DropDownShitLayout>
+  
+</RelativeLayout>
+ 

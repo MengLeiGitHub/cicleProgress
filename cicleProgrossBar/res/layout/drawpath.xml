@@ -1,0 +1,41 @@
+ 
+<RelativeLayout 
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+   	android:orientation="vertical"
+     >
+   
+  <com.airbubble.LoveBubbleRealayout
+      android:layout_height="fill_parent"
+       android:layout_width="fill_parent"
+       android:layout_weight="1"
+       android:id="@+id/layout"
+      >
+      <ImageView 
+          android:layout_width="100dp"
+          android:layout_height="100dp"
+          android:layout_alignParentTop="true"
+          android:src="@drawable/ic_launcher"
+          android:layout_alignParentLeft="true"
+          />
+
+      <Button
+          android:id="@+id/add"
+          android:layout_width="100dp"
+          android:layout_height="50dp"
+          android:layout_alignParentBottom="true"
+          android:layout_alignParentLeft="true"
+          android:text="add" />
+
+      <ImageView
+          android:layout_width="100dp"
+          android:layout_height="100dp"
+          android:layout_above="@+id/add"
+          android:layout_alignParentRight="true"
+          android:src="@drawable/ic_launcher" />
+
+  </com.airbubble.LoveBubbleRealayout>
+  
+</RelativeLayout>
+ 
